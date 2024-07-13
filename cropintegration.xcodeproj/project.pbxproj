@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A27EA952BBA2D4D00B6C2E3 /* KHListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EA942BBA2D4D00B6C2E3 /* KHListView.swift */; };
+		0A27EA982BBA2D9A00B6C2E3 /* KHSeparatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EA972BBA2D9A00B6C2E3 /* KHSeparatorConfig.swift */; };
+		0A27EA9B2BBA2DF400B6C2E3 /* KHView_Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EA9A2BBA2DF400B6C2E3 /* KHView_Source.swift */; };
+		0A27EA9D2BBA2E2C00B6C2E3 /* KHControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EA9C2BBA2E2C00B6C2E3 /* KHControl.swift */; };
+		0A27EA9F2BBA2E6500B6C2E3 /* KHScrollSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EA9E2BBA2E6500B6C2E3 /* KHScrollSession.swift */; };
+		0A27EAA12BBA309200B6C2E3 /* KHMainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EAA02BBA309200B6C2E3 /* KHMainListView.swift */; };
+		0A27EAA52BBA30EB00B6C2E3 /* KHTitleListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EAA42BBA30EB00B6C2E3 /* KHTitleListCell.swift */; };
+		0A27EAA72BBA310D00B6C2E3 /* KHTitileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EAA62BBA310D00B6C2E3 /* KHTitileView.swift */; };
+		0A27EAA92BBA316600B6C2E3 /* KHIndicatorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EAA82BBA316600B6C2E3 /* KHIndicatorListCell.swift */; };
+		0A27EAAB2BBA448F00B6C2E3 /* KHMainBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A27EAAA2BBA448F00B6C2E3 /* KHMainBottomBar.swift */; };
+		0A4EE0F42BB8AFD100FBE7BF /* KHEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE0F32BB8AFD100FBE7BF /* KHEditView.swift */; };
+		0A4EE0F62BB8B02A00FBE7BF /* KHCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE0F52BB8B02A00FBE7BF /* KHCropView.swift */; };
+		0A4EE0F82BB8B0B900FBE7BF /* KHDecelerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE0F72BB8B0B900FBE7BF /* KHDecelerator.swift */; };
+		0A4EE0FA2BB8B13A00FBE7BF /* KHEditView_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE0F92BB8B13A00FBE7BF /* KHEditView_ViewModel.swift */; };
+		0A4EE0FC2BB8B29900FBE7BF /* KHEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE0FB2BB8B29900FBE7BF /* KHEditViewModel.swift */; };
+		0A4EE1022BB8D1DC00FBE7BF /* KHViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE1012BB8D1DC00FBE7BF /* KHViewHelper.swift */; };
+		0A4EE1042BB8EE6C00FBE7BF /* KHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE1032BB8EE6C00FBE7BF /* KHLabel.swift */; };
+		0A4EE1062BB8EE8700FBE7BF /* KHSizableToFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE1052BB8EE8700FBE7BF /* KHSizableToFit.swift */; };
+		0A4EE1082BB8EEAE00FBE7BF /* String+EstimatedSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE1072BB8EEAE00FBE7BF /* String+EstimatedSize.swift */; };
+		0A4EE10A2BB8EEC200FBE7BF /* NSString+EstimatedSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE1092BB8EEC100FBE7BF /* NSString+EstimatedSize.swift */; };
+		0A4EE10D2BB8EF3000FBE7BF /* KHRectMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE10C2BB8EF3000FBE7BF /* KHRectMask.swift */; };
+		0A4EE10F2BB8EFB300FBE7BF /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE10E2BB8EFB300FBE7BF /* UIView+Layout.swift */; };
+		0A4EE1112BB8F10000FBE7BF /* KHToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE1102BB8F0FF00FBE7BF /* KHToastView.swift */; };
+		0A4EE1142BB8F65700FBE7BF /* KHContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE1132BB8F65700FBE7BF /* KHContentManager.swift */; };
+		0A4EE1162BB90C8600FBE7BF /* KHMainTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE1152BB90C8600FBE7BF /* KHMainTopBar.swift */; };
+		0A4EE1182BB910F800FBE7BF /* KHEditTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EE1172BB910F700FBE7BF /* KHEditTopBar.swift */; };
+		0AF2F33F2BB7142F0072E498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F33E2BB7142F0072E498 /* AppDelegate.swift */; };
+		0AF2F3432BB7142F0072E498 /* KHMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3422BB7142F0072E498 /* KHMainController.swift */; };
+		0AF2F3482BB714300072E498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF2F3472BB714300072E498 /* Assets.xcassets */; };
+		0AF2F3562BB716A50072E498 /* KHTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3552BB716A50072E498 /* KHTheme.swift */; };
+		0AF2F3582BB716AE0072E498 /* KHPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3572BB716AE0072E498 /* KHPalette.swift */; };
+		0AF2F35C2BB7170D0072E498 /* KHColor+Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F35B2BB7170D0072E498 /* KHColor+Basic.swift */; };
+		0AF2F35E2BB717C10072E498 /* KHGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F35D2BB717C10072E498 /* KHGeometry.swift */; };
+		0AF2F3612BB718A80072E498 /* KHTheme_Sensitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3602BB718A80072E498 /* KHTheme_Sensitive.swift */; };
+		0AF2F3632BB718B40072E498 /* KHColor_Sensitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3622BB718B40072E498 /* KHColor_Sensitive.swift */; };
+		0AF2F3652BB7192E0072E498 /* KHController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3642BB7192E0072E498 /* KHController.swift */; };
+		0AF2F3672BB719450072E498 /* KHLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3662BB719450072E498 /* KHLayoutView.swift */; };
+		0AF2F36A2BB7198C0072E498 /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3692BB7198C0072E498 /* UIView+Geometry.swift */; };
+		0AF2F36E2BB71A9E0072E498 /* KHMainLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F36D2BB71A9E0072E498 /* KHMainLayoutView.swift */; };
+		0AF2F3702BB71B060072E498 /* KHView_Reloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F36F2BB71B060072E498 /* KHView_Reloadable.swift */; };
+		0AF2F3722BB71B350072E498 /* KHView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3712BB71B350072E498 /* KHView.swift */; };
+		0AF2F3742BB71B720072E498 /* KHView+FloatLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3732BB71B720072E498 /* KHView+FloatLayout.swift */; };
+		0AF2F3762BB71C220072E498 /* KHContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3752BB71C220072E498 /* KHContextMenu.swift */; };
+		0AF2F3782BB71C410072E498 /* KHAnimationBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3772BB71C410072E498 /* KHAnimationBox.swift */; };
+		0AF2F37D2BB722740072E498 /* KHStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F37C2BB722740072E498 /* KHStyle.swift */; };
+		0AF2F3822BB73CC50072E498 /* KHZoomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3812BB73CC50072E498 /* KHZoomScrollView.swift */; };
+		0AF2F3842BB73CFE0072E498 /* KHConfig_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3832BB73CFE0072E498 /* KHConfig_Protocol.swift */; };
+		0AF2F3872BB743A70072E498 /* KHMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3862BB743A70072E498 /* KHMainView.swift */; };
+		0AF2F38A2BB746F80072E498 /* KHZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3892BB746F80072E498 /* KHZoom.swift */; };
+		0AF2F38C2BB7476C0072E498 /* KHAxisGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F38B2BB7476C0072E498 /* KHAxisGeometry.swift */; };
+		0AF2F3902BB755440072E498 /* KHMainView_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F38F2BB755440072E498 /* KHMainView_ViewModel.swift */; };
+		0AF2F3922BB755E50072E498 /* KHMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3912BB755E50072E498 /* KHMainViewModel.swift */; };
+		0AF2F3942BB76FCF0072E498 /* KHPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3932BB76FCF0072E498 /* KHPhotoView.swift */; };
+		0AF2F3972BB770110072E498 /* KHImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3962BB770110072E498 /* KHImageView.swift */; };
+		0AF2F3992BB770300072E498 /* KHOrientation2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3982BB770300072E498 /* KHOrientation2.swift */; };
+		0AF2F39B2BB7703E0072E498 /* KHCropRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F39A2BB7703E0072E498 /* KHCropRect.swift */; };
+		0AF2F39D2BB770B20072E498 /* KHCroppedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F39C2BB770B20072E498 /* KHCroppedView.swift */; };
+		0AF2F39F2BB770C00072E498 /* KHOrientedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F39E2BB770C00072E498 /* KHOrientedView.swift */; };
+		0AF2F3A12BB772060072E498 /* image-xl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF2F3A02BB772060072E498 /* image-xl.jpg */; };
+		0AF2F3A32BB7723F0072E498 /* image-s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AF2F3A22BB7723F0072E498 /* image-s.jpg */; };
+		0AF2F3A52BB773130072E498 /* KHCropMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3A42BB773130072E498 /* KHCropMask.swift */; };
+		0AF2F3A72BB775BF0072E498 /* KHEventTransparentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3A62BB775BF0072E498 /* KHEventTransparentView.swift */; };
+		0AF2F3A92BB78CD50072E498 /* KHEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3A82BB78CD50072E498 /* KHEditController.swift */; };
+		0AF2F3AB2BB78CED0072E498 /* KHEditLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3AA2BB78CED0072E498 /* KHEditLayoutView.swift */; };
+		0AF2F3AE2BB78D770072E498 /* KHPhotoEditBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3AD2BB78D770072E498 /* KHPhotoEditBottomBar.swift */; };
+		0AF2F3B02BB78DA30072E498 /* KHDashSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF2F3AF2BB78DA30072E498 /* KHDashSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A27EA942BBA2D4D00B6C2E3 /* KHListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHListView.swift; sourceTree = "<group>"; };
+		0A27EA972BBA2D9A00B6C2E3 /* KHSeparatorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHSeparatorConfig.swift; sourceTree = "<group>"; };
+		0A27EA9A2BBA2DF400B6C2E3 /* KHView_Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHView_Source.swift; sourceTree = "<group>"; };
+		0A27EA9C2BBA2E2C00B6C2E3 /* KHControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHControl.swift; sourceTree = "<group>"; };
+		0A27EA9E2BBA2E6500B6C2E3 /* KHScrollSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHScrollSession.swift; sourceTree = "<group>"; };
+		0A27EAA02BBA309200B6C2E3 /* KHMainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHMainListView.swift; sourceTree = "<group>"; };
+		0A27EAA42BBA30EB00B6C2E3 /* KHTitleListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHTitleListCell.swift; sourceTree = "<group>"; };
+		0A27EAA62BBA310D00B6C2E3 /* KHTitileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHTitileView.swift; sourceTree = "<group>"; };
+		0A27EAA82BBA316600B6C2E3 /* KHIndicatorListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHIndicatorListCell.swift; sourceTree = "<group>"; };
+		0A27EAAA2BBA448F00B6C2E3 /* KHMainBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHMainBottomBar.swift; sourceTree = "<group>"; };
+		0A4EE0F32BB8AFD100FBE7BF /* KHEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHEditView.swift; sourceTree = "<group>"; };
+		0A4EE0F52BB8B02A00FBE7BF /* KHCropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHCropView.swift; sourceTree = "<group>"; };
+		0A4EE0F72BB8B0B900FBE7BF /* KHDecelerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHDecelerator.swift; sourceTree = "<group>"; };
+		0A4EE0F92BB8B13A00FBE7BF /* KHEditView_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHEditView_ViewModel.swift; sourceTree = "<group>"; };
+		0A4EE0FB2BB8B29900FBE7BF /* KHEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHEditViewModel.swift; sourceTree = "<group>"; };
+		0A4EE1012BB8D1DC00FBE7BF /* KHViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHViewHelper.swift; sourceTree = "<group>"; };
+		0A4EE1032BB8EE6C00FBE7BF /* KHLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHLabel.swift; sourceTree = "<group>"; };
+		0A4EE1052BB8EE8700FBE7BF /* KHSizableToFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHSizableToFit.swift; sourceTree = "<group>"; };
+		0A4EE1072BB8EEAE00FBE7BF /* String+EstimatedSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EstimatedSize.swift"; sourceTree = "<group>"; };
+		0A4EE1092BB8EEC100FBE7BF /* NSString+EstimatedSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+EstimatedSize.swift"; sourceTree = "<group>"; };
+		0A4EE10C2BB8EF3000FBE7BF /* KHRectMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHRectMask.swift; sourceTree = "<group>"; };
+		0A4EE10E2BB8EFB300FBE7BF /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		0A4EE1102BB8F0FF00FBE7BF /* KHToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHToastView.swift; sourceTree = "<group>"; };
+		0A4EE1132BB8F65700FBE7BF /* KHContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHContentManager.swift; sourceTree = "<group>"; };
+		0A4EE1152BB90C8600FBE7BF /* KHMainTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHMainTopBar.swift; sourceTree = "<group>"; };
+		0A4EE1172BB910F700FBE7BF /* KHEditTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHEditTopBar.swift; sourceTree = "<group>"; };
+		0AF2F33B2BB7142F0072E498 /* CropIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF2F33E2BB7142F0072E498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AF2F3422BB7142F0072E498 /* KHMainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHMainController.swift; sourceTree = "<group>"; };
+		0AF2F3472BB714300072E498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AF2F34C2BB714300072E498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF2F3552BB716A50072E498 /* KHTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHTheme.swift; sourceTree = "<group>"; };
+		0AF2F3572BB716AE0072E498 /* KHPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHPalette.swift; sourceTree = "<group>"; };
+		0AF2F35B2BB7170D0072E498 /* KHColor+Basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KHColor+Basic.swift"; sourceTree = "<group>"; };
+		0AF2F35D2BB717C10072E498 /* KHGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHGeometry.swift; sourceTree = "<group>"; };
+		0AF2F3602BB718A80072E498 /* KHTheme_Sensitive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHTheme_Sensitive.swift; sourceTree = "<group>"; };
+		0AF2F3622BB718B40072E498 /* KHColor_Sensitive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHColor_Sensitive.swift; sourceTree = "<group>"; };
+		0AF2F3642BB7192E0072E498 /* KHController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHController.swift; sourceTree = "<group>"; };
+		0AF2F3662BB719450072E498 /* KHLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHLayoutView.swift; sourceTree = "<group>"; };
+		0AF2F3692BB7198C0072E498 /* UIView+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
+		0AF2F36D2BB71A9E0072E498 /* KHMainLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHMainLayoutView.swift; sourceTree = "<group>"; };
+		0AF2F36F2BB71B060072E498 /* KHView_Reloadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHView_Reloadable.swift; sourceTree = "<group>"; };
+		0AF2F3712BB71B350072E498 /* KHView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHView.swift; sourceTree = "<group>"; };
+		0AF2F3732BB71B720072E498 /* KHView+FloatLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KHView+FloatLayout.swift"; sourceTree = "<group>"; };
+		0AF2F3752BB71C220072E498 /* KHContextMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHContextMenu.swift; sourceTree = "<group>"; };
+		0AF2F3772BB71C410072E498 /* KHAnimationBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHAnimationBox.swift; sourceTree = "<group>"; };
+		0AF2F37C2BB722740072E498 /* KHStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHStyle.swift; sourceTree = "<group>"; };
+		0AF2F3812BB73CC50072E498 /* KHZoomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHZoomScrollView.swift; sourceTree = "<group>"; };
+		0AF2F3832BB73CFE0072E498 /* KHConfig_Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHConfig_Protocol.swift; sourceTree = "<group>"; };
+		0AF2F3862BB743A70072E498 /* KHMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHMainView.swift; sourceTree = "<group>"; };
+		0AF2F3892BB746F80072E498 /* KHZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHZoom.swift; sourceTree = "<group>"; };
+		0AF2F38B2BB7476C0072E498 /* KHAxisGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHAxisGeometry.swift; sourceTree = "<group>"; };
+		0AF2F38F2BB755440072E498 /* KHMainView_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHMainView_ViewModel.swift; sourceTree = "<group>"; };
+		0AF2F3912BB755E50072E498 /* KHMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHMainViewModel.swift; sourceTree = "<group>"; };
+		0AF2F3932BB76FCF0072E498 /* KHPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHPhotoView.swift; sourceTree = "<group>"; };
+		0AF2F3962BB770110072E498 /* KHImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHImageView.swift; sourceTree = "<group>"; };
+		0AF2F3982BB770300072E498 /* KHOrientation2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHOrientation2.swift; sourceTree = "<group>"; };
+		0AF2F39A2BB7703E0072E498 /* KHCropRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHCropRect.swift; sourceTree = "<group>"; };
+		0AF2F39C2BB770B20072E498 /* KHCroppedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHCroppedView.swift; sourceTree = "<group>"; };
+		0AF2F39E2BB770C00072E498 /* KHOrientedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHOrientedView.swift; sourceTree = "<group>"; };
+		0AF2F3A02BB772060072E498 /* image-xl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-xl.jpg"; sourceTree = "<group>"; };
+		0AF2F3A22BB7723F0072E498 /* image-s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-s.jpg"; sourceTree = "<group>"; };
+		0AF2F3A42BB773130072E498 /* KHCropMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHCropMask.swift; sourceTree = "<group>"; };
+		0AF2F3A62BB775BF0072E498 /* KHEventTransparentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHEventTransparentView.swift; sourceTree = "<group>"; };
+		0AF2F3A82BB78CD50072E498 /* KHEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHEditController.swift; sourceTree = "<group>"; };
+		0AF2F3AA2BB78CED0072E498 /* KHEditLayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHEditLayoutView.swift; sourceTree = "<group>"; };
+		0AF2F3AD2BB78D770072E498 /* KHPhotoEditBottomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHPhotoEditBottomBar.swift; sourceTree = "<group>"; };
+		0AF2F3AF2BB78DA30072E498 /* KHDashSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHDashSlider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF2F3382BB7142F0072E498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A27EA922BB9E56500B6C2E3 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F3A02BB772060072E498 /* image-xl.jpg */,
+				0AF2F3A22BB7723F0072E498 /* image-s.jpg */,
+				0AF2F3472BB714300072E498 /* Assets.xcassets */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		0A27EA932BBA2D0A00B6C2E3 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				0A4EE0F52BB8B02A00FBE7BF /* KHCropView.swift */,
+			);
+			name = Editor;
+			sourceTree = "<group>";
+		};
+		0A27EA962BBA2D9100B6C2E3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0A27EA972BBA2D9A00B6C2E3 /* KHSeparatorConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0A27EAA22BBA30C600B6C2E3 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				0A27EAA32BBA30DF00B6C2E3 /* Cell */,
+				0A27EAA02BBA309200B6C2E3 /* KHMainListView.swift */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		0A27EAA32BBA30DF00B6C2E3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0A27EAA42BBA30EB00B6C2E3 /* KHTitleListCell.swift */,
+				0A27EAA82BBA316600B6C2E3 /* KHIndicatorListCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		0A4EE10B2BB8EF0300FBE7BF /* Mask */ = {
+			isa = PBXGroup;
+			children = (
+				0A4EE10C2BB8EF3000FBE7BF /* KHRectMask.swift */,
+				0AF2F3A42BB773130072E498 /* KHCropMask.swift */,
+			);
+			path = Mask;
+			sourceTree = "<group>";
+		};
+		0A4EE1122BB8F64500FBE7BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A4EE1132BB8F65700FBE7BF /* KHContentManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AF2F3322BB7142F0072E498 = {
+			isa = PBXGroup;
+			children = (
+				0AF2F33D2BB7142F0072E498 /* cropintegration */,
+				0AF2F33C2BB7142F0072E498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AF2F33C2BB7142F0072E498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F33B2BB7142F0072E498 /* CropIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AF2F33D2BB7142F0072E498 /* cropintegration */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F3592BB716C90072E498 /* Library */,
+				0AF2F3522BB7161E0072E498 /* Style */,
+				0A4EE1122BB8F64500FBE7BF /* Model */,
+				0AF2F3532BB716370072E498 /* View */,
+				0AF2F37F2BB73C890072E498 /* ViewModel */,
+				0AF2F3542BB716440072E498 /* Controller */,
+				0A27EA922BB9E56500B6C2E3 /* Graphics */,
+				0AF2F37E2BB724020072E498 /* Other */,
+			);
+			path = cropintegration;
+			sourceTree = "<group>";
+		};
+		0AF2F3522BB7161E0072E498 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F3572BB716AE0072E498 /* KHPalette.swift */,
+				0AF2F3552BB716A50072E498 /* KHTheme.swift */,
+				0AF2F37C2BB722740072E498 /* KHStyle.swift */,
+				0A4EE1012BB8D1DC00FBE7BF /* KHViewHelper.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		0AF2F3532BB716370072E498 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F36C2BB71A730072E498 /* Layout */,
+				0AF2F3802BB73C980072E498 /* Container */,
+				0AF2F3AC2BB78D560072E498 /* Bar */,
+				0AF2F3852BB7435A0072E498 /* Content */,
+				0A27EA932BBA2D0A00B6C2E3 /* Editor */,
+				0A27EAA22BBA30C600B6C2E3 /* List */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AF2F3542BB716440072E498 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F3422BB7142F0072E498 /* KHMainController.swift */,
+				0AF2F3A82BB78CD50072E498 /* KHEditController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AF2F3592BB716C90072E498 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F35F2BB7186C0072E498 /* Protocol */,
+				0A27EA962BBA2D9100B6C2E3 /* Config */,
+				0AF2F3792BB71C450072E498 /* Animation */,
+				0AF2F3682BB719620072E498 /* Extension */,
+				0AF2F3882BB746EA0072E498 /* Geometry */,
+				0AF2F3952BB76FF90072E498 /* Image */,
+				0A4EE10B2BB8EF0300FBE7BF /* Mask */,
+				0AF2F3712BB71B350072E498 /* KHView.swift */,
+				0AF2F3A62BB775BF0072E498 /* KHEventTransparentView.swift */,
+				0AF2F3662BB719450072E498 /* KHLayoutView.swift */,
+				0AF2F3642BB7192E0072E498 /* KHController.swift */,
+				0AF2F3752BB71C220072E498 /* KHContextMenu.swift */,
+				0AF2F3AF2BB78DA30072E498 /* KHDashSlider.swift */,
+				0A4EE1032BB8EE6C00FBE7BF /* KHLabel.swift */,
+				0A4EE1102BB8F0FF00FBE7BF /* KHToastView.swift */,
+				0A27EA942BBA2D4D00B6C2E3 /* KHListView.swift */,
+				0A27EA9C2BBA2E2C00B6C2E3 /* KHControl.swift */,
+				0A27EA9E2BBA2E6500B6C2E3 /* KHScrollSession.swift */,
+				0A27EAA62BBA310D00B6C2E3 /* KHTitileView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0AF2F35F2BB7186C0072E498 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F3602BB718A80072E498 /* KHTheme_Sensitive.swift */,
+				0AF2F3622BB718B40072E498 /* KHColor_Sensitive.swift */,
+				0AF2F36F2BB71B060072E498 /* KHView_Reloadable.swift */,
+				0AF2F3832BB73CFE0072E498 /* KHConfig_Protocol.swift */,
+				0A4EE1052BB8EE8700FBE7BF /* KHSizableToFit.swift */,
+				0A27EA9A2BBA2DF400B6C2E3 /* KHView_Source.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0AF2F3682BB719620072E498 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F35B2BB7170D0072E498 /* KHColor+Basic.swift */,
+				0AF2F35D2BB717C10072E498 /* KHGeometry.swift */,
+				0AF2F3692BB7198C0072E498 /* UIView+Geometry.swift */,
+				0A4EE10E2BB8EFB300FBE7BF /* UIView+Layout.swift */,
+				0AF2F3732BB71B720072E498 /* KHView+FloatLayout.swift */,
+				0A4EE1092BB8EEC100FBE7BF /* NSString+EstimatedSize.swift */,
+				0A4EE1072BB8EEAE00FBE7BF /* String+EstimatedSize.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0AF2F36C2BB71A730072E498 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F36D2BB71A9E0072E498 /* KHMainLayoutView.swift */,
+				0AF2F3AA2BB78CED0072E498 /* KHEditLayoutView.swift */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		0AF2F3792BB71C450072E498 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F3772BB71C410072E498 /* KHAnimationBox.swift */,
+				0A4EE0F72BB8B0B900FBE7BF /* KHDecelerator.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		0AF2F37E2BB724020072E498 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F33E2BB7142F0072E498 /* AppDelegate.swift */,
+				0AF2F34C2BB714300072E498 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0AF2F37F2BB73C890072E498 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F38E2BB755230072E498 /* Protocol */,
+				0AF2F3912BB755E50072E498 /* KHMainViewModel.swift */,
+				0A4EE0FB2BB8B29900FBE7BF /* KHEditViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0AF2F3802BB73C980072E498 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F3812BB73CC50072E498 /* KHZoomScrollView.swift */,
+			);
+			name = Container;
+			sourceTree = "<group>";
+		};
+		0AF2F3852BB7435A0072E498 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F3862BB743A70072E498 /* KHMainView.swift */,
+				0A4EE0F32BB8AFD100FBE7BF /* KHEditView.swift */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+		0AF2F3882BB746EA0072E498 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F38B2BB7476C0072E498 /* KHAxisGeometry.swift */,
+				0AF2F3892BB746F80072E498 /* KHZoom.swift */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		0AF2F38E2BB755230072E498 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F38F2BB755440072E498 /* KHMainView_ViewModel.swift */,
+				0A4EE0F92BB8B13A00FBE7BF /* KHEditView_ViewModel.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		0AF2F3952BB76FF90072E498 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0AF2F3962BB770110072E498 /* KHImageView.swift */,
+				0AF2F39C2BB770B20072E498 /* KHCroppedView.swift */,
+				0AF2F39E2BB770C00072E498 /* KHOrientedView.swift */,
+				0AF2F3932BB76FCF0072E498 /* KHPhotoView.swift */,
+				0AF2F3982BB770300072E498 /* KHOrientation2.swift */,
+				0AF2F39A2BB7703E0072E498 /* KHCropRect.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		0AF2F3AC2BB78D560072E498 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				0A4EE1152BB90C8600FBE7BF /* KHMainTopBar.swift */,
+				0A27EAAA2BBA448F00B6C2E3 /* KHMainBottomBar.swift */,
+				0A4EE1172BB910F700FBE7BF /* KHEditTopBar.swift */,
+				0AF2F3AD2BB78D770072E498 /* KHPhotoEditBottomBar.swift */,
+			);
+			name = Bar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AF2F33A2BB7142F0072E498 /* CropIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF2F34F2BB714300072E498 /* Build configuration list for PBXNativeTarget "CropIntegration" */;
+			buildPhases = (
+				0AF2F3372BB7142F0072E498 /* Sources */,
+				0AF2F3382BB7142F0072E498 /* Frameworks */,
+				0AF2F3392BB7142F0072E498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CropIntegration;
+			productName = "kh-photo-crop-animations";
+			productReference = 0AF2F33B2BB7142F0072E498 /* CropIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AF2F3332BB7142F0072E498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					0AF2F33A2BB7142F0072E498 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 0AF2F3362BB7142F0072E498 /* Build configuration list for PBXProject "cropintegration" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AF2F3322BB7142F0072E498;
+			productRefGroup = 0AF2F33C2BB7142F0072E498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AF2F33A2BB7142F0072E498 /* CropIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AF2F3392BB7142F0072E498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF2F3A32BB7723F0072E498 /* image-s.jpg in Resources */,
+				0AF2F3A12BB772060072E498 /* image-xl.jpg in Resources */,
+				0AF2F3482BB714300072E498 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AF2F3372BB7142F0072E498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF2F3992BB770300072E498 /* KHOrientation2.swift in Sources */,
+				0AF2F3582BB716AE0072E498 /* KHPalette.swift in Sources */,
+				0AF2F3A92BB78CD50072E498 /* KHEditController.swift in Sources */,
+				0A4EE1142BB8F65700FBE7BF /* KHContentManager.swift in Sources */,
+				0A4EE0F82BB8B0B900FBE7BF /* KHDecelerator.swift in Sources */,
+				0AF2F3432BB7142F0072E498 /* KHMainController.swift in Sources */,
+				0AF2F3942BB76FCF0072E498 /* KHPhotoView.swift in Sources */,
+				0AF2F3A72BB775BF0072E498 /* KHEventTransparentView.swift in Sources */,
+				0AF2F39F2BB770C00072E498 /* KHOrientedView.swift in Sources */,
+				0AF2F3612BB718A80072E498 /* KHTheme_Sensitive.swift in Sources */,
+				0AF2F35C2BB7170D0072E498 /* KHColor+Basic.swift in Sources */,
+				0AF2F3562BB716A50072E498 /* KHTheme.swift in Sources */,
+				0A27EA9B2BBA2DF400B6C2E3 /* KHView_Source.swift in Sources */,
+				0AF2F3AB2BB78CED0072E498 /* KHEditLayoutView.swift in Sources */,
+				0AF2F3702BB71B060072E498 /* KHView_Reloadable.swift in Sources */,
+				0AF2F37D2BB722740072E498 /* KHStyle.swift in Sources */,
+				0A27EA952BBA2D4D00B6C2E3 /* KHListView.swift in Sources */,
+				0A4EE1082BB8EEAE00FBE7BF /* String+EstimatedSize.swift in Sources */,
+				0AF2F39B2BB7703E0072E498 /* KHCropRect.swift in Sources */,
+				0A4EE1162BB90C8600FBE7BF /* KHMainTopBar.swift in Sources */,
+				0A4EE10A2BB8EEC200FBE7BF /* NSString+EstimatedSize.swift in Sources */,
+				0A4EE0F42BB8AFD100FBE7BF /* KHEditView.swift in Sources */,
+				0AF2F3AE2BB78D770072E498 /* KHPhotoEditBottomBar.swift in Sources */,
+				0A27EA982BBA2D9A00B6C2E3 /* KHSeparatorConfig.swift in Sources */,
+				0AF2F38C2BB7476C0072E498 /* KHAxisGeometry.swift in Sources */,
+				0AF2F3742BB71B720072E498 /* KHView+FloatLayout.swift in Sources */,
+				0A4EE1112BB8F10000FBE7BF /* KHToastView.swift in Sources */,
+				0A4EE1042BB8EE6C00FBE7BF /* KHLabel.swift in Sources */,
+				0AF2F3842BB73CFE0072E498 /* KHConfig_Protocol.swift in Sources */,
+				0AF2F3782BB71C410072E498 /* KHAnimationBox.swift in Sources */,
+				0AF2F3902BB755440072E498 /* KHMainView_ViewModel.swift in Sources */,
+				0A4EE0FA2BB8B13A00FBE7BF /* KHEditView_ViewModel.swift in Sources */,
+				0AF2F3822BB73CC50072E498 /* KHZoomScrollView.swift in Sources */,
+				0A27EA9D2BBA2E2C00B6C2E3 /* KHControl.swift in Sources */,
+				0AF2F3632BB718B40072E498 /* KHColor_Sensitive.swift in Sources */,
+				0AF2F39D2BB770B20072E498 /* KHCroppedView.swift in Sources */,
+				0AF2F3652BB7192E0072E498 /* KHController.swift in Sources */,
+				0A4EE1022BB8D1DC00FBE7BF /* KHViewHelper.swift in Sources */,
+				0AF2F3672BB719450072E498 /* KHLayoutView.swift in Sources */,
+				0A4EE0F62BB8B02A00FBE7BF /* KHCropView.swift in Sources */,
+				0A27EAA12BBA309200B6C2E3 /* KHMainListView.swift in Sources */,
+				0AF2F3972BB770110072E498 /* KHImageView.swift in Sources */,
+				0A27EAA92BBA316600B6C2E3 /* KHIndicatorListCell.swift in Sources */,
+				0AF2F33F2BB7142F0072E498 /* AppDelegate.swift in Sources */,
+				0A27EA9F2BBA2E6500B6C2E3 /* KHScrollSession.swift in Sources */,
+				0AF2F3762BB71C220072E498 /* KHContextMenu.swift in Sources */,
+				0A27EAA52BBA30EB00B6C2E3 /* KHTitleListCell.swift in Sources */,
+				0AF2F36A2BB7198C0072E498 /* UIView+Geometry.swift in Sources */,
+				0AF2F38A2BB746F80072E498 /* KHZoom.swift in Sources */,
+				0AF2F3722BB71B350072E498 /* KHView.swift in Sources */,
+				0AF2F36E2BB71A9E0072E498 /* KHMainLayoutView.swift in Sources */,
+				0A4EE10D2BB8EF3000FBE7BF /* KHRectMask.swift in Sources */,
+				0A27EAA72BBA310D00B6C2E3 /* KHTitileView.swift in Sources */,
+				0A4EE1062BB8EE8700FBE7BF /* KHSizableToFit.swift in Sources */,
+				0AF2F3872BB743A70072E498 /* KHMainView.swift in Sources */,
+				0AF2F3B02BB78DA30072E498 /* KHDashSlider.swift in Sources */,
+				0AF2F3922BB755E50072E498 /* KHMainViewModel.swift in Sources */,
+				0AF2F3A52BB773130072E498 /* KHCropMask.swift in Sources */,
+				0AF2F35E2BB717C10072E498 /* KHGeometry.swift in Sources */,
+				0A4EE10F2BB8EFB300FBE7BF /* UIView+Layout.swift in Sources */,
+				0A27EAAB2BBA448F00B6C2E3 /* KHMainBottomBar.swift in Sources */,
+				0A4EE0FC2BB8B29900FBE7BF /* KHEditViewModel.swift in Sources */,
+				0A4EE1182BB910F800FBE7BF /* KHEditTopBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AF2F34D2BB714300072E498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AF2F34E2BB714300072E498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AF2F3502BB714300072E498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52R4QG4H2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cropintegration/Other/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khuala.demo.cropintegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AF2F3512BB714300072E498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52R4QG4H2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cropintegration/Other/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khuala.demo.cropintegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AF2F3362BB7142F0072E498 /* Build configuration list for PBXProject "cropintegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF2F34D2BB714300072E498 /* Debug */,
+				0AF2F34E2BB714300072E498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF2F34F2BB714300072E498 /* Build configuration list for PBXNativeTarget "CropIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF2F3502BB714300072E498 /* Debug */,
+				0AF2F3512BB714300072E498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AF2F3332BB7142F0072E498 /* Project object */;
+}
